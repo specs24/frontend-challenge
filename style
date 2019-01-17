@@ -3,6 +3,15 @@
   box-sizing: border-box;
 }
 
+
+
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+
 blockquote, q {
   quotes: none;
 }
@@ -14,12 +23,45 @@ q:before, q:after {
 }
 
 
-body {
-    width: 320px;
-    font: 12pt Helvetica, sans-serif;
-} 
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  margin: 10px auto;
+  padding:2%;
+  border: 1%, solid black;
+  width: 90%; 
+}
+
+
+.direction data {
+  background-color: #aaa;
+  border: 3px solid gray;
+  float: left;
+  margin: 0 10px 10px 0;
+  width: 80%;
+  padding: 0px 20px 20px 0px;
+ display: block;
+}
+
+h1{
+  font-size: 150%;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 110%;
+  line-height: 90%;
+}
+
+
+
+
+

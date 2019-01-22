@@ -3,14 +3,11 @@
   box-sizing: border-box;
 }
 
-
-
 body {
   line-height: 1.5;
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
-
 
 blockquote, q {
   quotes: none;
@@ -22,43 +19,97 @@ q:before, q:after {
   content: none;
 }
 
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-body {
-  font-family: sans-serif;
-  font-size: 16px;
+..image {
+    position: relative;
+    width: 375px;
 }
+.statusbar {
+    z-index: 0;
+}
+
+.stopfinder {
+    z-index: 1;
+}
+
+.searchbar {
+    z-index: 2;
+}
+
 
 .container {
-  margin: 10px auto;
-  padding:2%;
-  border: 1%, solid black;
-  width: 90%; 
+  border: 2px solid grey;
+Padding: 1.5px;
+  width: 385px; 
+  float: left;
 }
 
+.direction-data {
+ Font-weight: bold;
+Color: white;
+Background-color: grey;
+}
 
-.direction data {
-  background-color: #aaa;
-  border: 3px solid gray;
-  float: left;
-  margin: 0 10px 10px 0;
-  width: 80%;
-  padding: 0px 20px 20px 0px;
- display: block;
+th, td {
+  padding: 3px;
+  text-align: left;  
+} 
+
+tr {
+border: 2px solid #d3d3d3;
+}
+
+th {
+    Font-weight: bold;
+}
+
+.busRoutes {
+background-color: #DDA0DD;
+padding: 2%;
+Margin: 1%;
+}
+
+.stopLabel, .distanceLabel {
+background-color: #BB6BD9;
+Width: 45%;
+Margin: 1%;
+color: white;
+padding: 2.5%;
+Border-radius: 7px;
+}
+
+.stopLabel, .stopLocation {
+    Display:inline-block;
+}
+
+.distanceLabel, .distance {
+    Display: inline-block;
+}
+
+.stopLocation, .distance {
+    Font-weight: bold;
+}
+.busStopInfo {
+    Border-top: 2px solid grey;
+Border-bottom: 2px solid grey;
+}
+
+.distanceInfo {
+    Border-bottom: 2px solid grey;
 }
 
 h1{
-  font-size: 150%;
-  font-weight: bold;
+font-size: 115%;
+font-weight: bold;
 }
 
 h3 {
-  font-size: 110%;
-  line-height: 90%;
+font-size: 105%;
+line-height: 90%;
 }
 
 

@@ -1,118 +1,180 @@
-/**changing box-sizing to border-box***/
-*, *:before, *:after {
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
 
-body {
-  line-height: 1.5;
-  font-family: sans-serif;
-  font-size: 14px;
-}
+<section class="container">
 
-blockquote, q {
-  quotes: none;
-}
+<div class= "statusbar image">
+<img src="images/statusbar.png">  
+</div>
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
+<div class= "stopfinder image">
+<img src="images/stopFinder-Header.png">    
+</div>
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+<div class= "searchbar image">
+<img src="images/searchField.png">    
+</div>
+ 
+<div class =  "busStopInfo">
 
-..image {
-    position: relative;
-    width: 375px;
-}
-.statusbar {
-    z-index: 0;
-}
+<div class = "stopLabel">
+<h1>Nearest Bus Stop</h1>
+</div>
+</div>
 
-.stopfinder {
-    z-index: 1;
-}
+<div class = "stopLocation">
+<h3>Washington / State </h3>
+</div>
 
-.searchbar {
-    z-index: 2;
-}
+</div>
 
+<div class =  "distanceInfo">
 
-.container {
-  border: 2px solid grey;
-Padding: 1.5px;
-  width: 385px; 
-  float: left;
-}
+<div class = "distanceLabel">
+<h1>Distance to Stop</h1>
+</div>
+</div>
 
-.direction-data {
- Font-weight: bold;
-Color: white;
-Background-color: grey;
-}
+<div class = "distance">
+<h3>500 m -
+ <img src="images/walking-Icon.png">
+5 min</h3>
+</div>
 
-th, td {
-  padding: 3px;
-  text-align: left;  
-} 
+</div>
 
-tr {
-border: 2px solid #d3d3d3;
-}
+<div class = "busRoutes">
+<h1>Bus Route Information</h1>
+</div> 
+       
 
-th {
-    Font-weight: bold;
-}
+<div class="direction-data">
+Eastbound
+</div>
+          <div class="route data">
+<table style="width:100%">
+  <tr>
+    <th>Line</th>
+    <th>Destination</th>
+    <th>Frequency</th>
+  </tr>
+  <tr>
+    <td>60</td>
+    <td>Randolph/Harbor Dr</td>
+    <td>Every 20 minutes</td>
+  </tr>
+  <tr>
+    <td>124</td>
+    <td>Navy Pier</td>
+    <td>Every 10 minutes</td>
+  </tr>
+</table>
+</div>
 
-.busRoutes {
-background-color: #DDA0DD;
-padding: 2%;
-Margin: 1%;
-}
+<div class="direction-data">
+Northbound
+</div>
+<div class="route data">
+<table style="width:100%">
+  <tr>
+    <th>Line</th>
+    <th>Destination</th>
+    <th>Frequency</th>
+  </tr>
+  <tr>
+    <td>151</td>
+    <td>Devon/Clark</td>
+    <td>Every 16 minutes</td>
+  </tr>
+</table>
+</div>
 
-.stopLabel, .distanceLabel {
-background-color: #BB6BD9;
-Width: 45%;
-Margin: 1%;
-color: white;
-padding: 2.5%;
-Border-radius: 7px;
-}
+<div class="direction-data">
+Southbound
+</div>
+<div class="route data">
+<table style="width:100%">
+  <tr>
+    <th>Line</th>
+    <th>Destination</th>
+    <th>Frequency</th>
+  </tr>
+  <tr>
+    <td>J14</td>
+    <td>103rd Stony Island</td>
+    <td>Every 15 minutes</td>
+  </tr>
+  <tr>
+    <td>124</td>
+    <td>Navy Pier</td>
+    <td>Every 10 minutes</td>
+  </tr>
+</table>
+</div>
 
-.stopLabel, .stopLocation {
-    Display:inline-block;
-}
+<div class="direction-data">
+Reroute
+</div>
+<div class="route data">
+<table style="width:100%">
+  <tr>
+    <th>Line</th>
+    <th>Destination</th>
+    <th>Frequency</th>
+  </tr>
+  <tr>
+    <td>6x</td>
+    <td>Jackson Park Express</td>
+    <td>N/A</td>
+  </tr>
+</table>
+</div>
 
-.distanceLabel, .distance {
-    Display: inline-block;
-}
+<div class="direction-data">
+Out of Service
+</div>
+<div class="route data">
+<table style="width:100%">
+  <tr>
+    <th>Line</th>
+    <th>Destination</th>
+    <th>Frequency</th>
+  </tr>
+  <tr>
+    <td>6x</td>
+    <td>Jackson Park Express</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Cottage Grove</td>
+    <td>Resumes 12:10am</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>Madison</td>
+    <td>Resumes 12:10am</td>
+  </tr>
+  <tr>
+    <td>157</td>
+    <td>Streeterville/Taylor</td>
+    <td>Resumes 6:00am</td>
+  </tr>
+</table>
 
-.stopLocation, .distance {
-    Font-weight: bold;
-}
-.busStopInfo {
-    Border-top: 2px solid grey;
-Border-bottom: 2px solid grey;
-}
+</div>
+<div class = "toolbar">
+<img src="images/toolbar.png">    
+</div>
 
-.distanceInfo {
-    Border-bottom: 2px solid grey;
-}
+</section>
 
-h1{
-font-size: 115%;
-font-weight: bold;
-}
-
-h3 {
-font-size: 105%;
-line-height: 90%;
-}
-
-
-
-
-
+  </body>
+</html>

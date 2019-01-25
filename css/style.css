@@ -1,0 +1,118 @@
+/**changing box-sizing to border-box***/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+..image {
+    position: relative;
+    width: 375px;
+}
+.statusbar {
+    z-index: 0;
+}
+
+.stopfinder {
+    z-index: 1;
+}
+
+.searchbar {
+    z-index: 2;
+}
+
+
+.container {
+  border: 2px solid grey;
+Padding: 1.5px;
+  width: 385px; 
+  float: left;
+}
+
+.direction-data {
+ Font-weight: bold;
+Color: white;
+Background-color: grey;
+}
+
+th, td {
+  padding: 3px;
+  text-align: left;  
+} 
+
+tr {
+border: 2px solid #d3d3d3;
+}
+
+th {
+    Font-weight: bold;
+}
+
+.busRoutes {
+background-color: #DDA0DD;
+padding: 2%;
+Margin: 1%;
+}
+
+.stopLabel, .distanceLabel {
+background-color: #BB6BD9;
+Width: 45%;
+Margin: 1%;
+color: white;
+padding: 2.5%;
+Border-radius: 7px;
+}
+
+.stopLabel, .stopLocation {
+    Display:inline-block;
+}
+
+.distanceLabel, .distance {
+    Display: inline-block;
+}
+
+.stopLocation, .distance {
+    Font-weight: bold;
+}
+.busStopInfo {
+    Border-top: 2px solid grey;
+Border-bottom: 2px solid grey;
+}
+
+.distanceInfo {
+    Border-bottom: 2px solid grey;
+}
+
+h1{
+font-size: 115%;
+font-weight: bold;
+}
+
+h3 {
+font-size: 105%;
+line-height: 90%;
+}
+
+
+
+
+

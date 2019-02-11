@@ -2,33 +2,41 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" 
+href="https://fonts.googleapis.com/css?family=Roboto">
+
   </head>
   <body>
-
 <section class="container">
 <header>
 <nav>
 <div class= "statusbar image">
-<img src="images/Statusbar.png"> 
-</div>
-<div class= "stopfinder image">
-<img src="images/stopFinder-Header.png">    
-</div>
-<div class= "searchbar image">
-<img src="images/searchField.png">    
-</div>
+<img src="images/Statusbar.png">
+</div><!--
+
+--><section class= "stopfinder">
+<h1>Stop Finder <div class  = "user"> <img src="images/Userpic.png"> </div></h1>
+</section>
+
+<section class= "searchbar">
+    
+<form action="/action_page.php">    
+<input type="text" id="search" value="Where would you like to go">
+</section>
+
  </nav>
+
 </header>
 
 <section class =  "busStopInfo">
 <div class = "stopLabel">
 <h1>Nearest Bus Stop</h1>
 </div>
+
 <div class = "stopLocation">
-<h3>Washington / State </h3>
+<h1>Washington / State </h1>
 </div>
 </section>
 
@@ -36,67 +44,69 @@
 <div class = "distanceLabel">
 <h1>Distance to Stop</h1>
 </div>
+
 <div class = "distance">
-<h3>500 m -
-         <img src="images/walking-icon.png">
-5 min</h3>
+<h1>500 m -
+                 <img src="images/walking-icon.png">
+5 min</h1>
 </div>
+
 </section>
 
-<section class = “busRouteDetails”
+<section id  = "busRoute">
 
-<div class = "busRoutes">
 <h1>Bus Route Information</h1>
-</div>
+</section>
        
-<div class="direction-data">
+<div class="direction">
 Eastbound
 </div>
           
 <section class="route data">
 <table style="width:100%">
-  <tr>
-                <th>Line</th>
-                <th>Destination</th>
-                <th>Frequency</th>
-  </tr>
-  <tr>
-                <td>60</td>
-                <td>Randolph/Harbor Dr</td>
-    <td>Every 20 minutes</td>
-  </tr>
-  <tr>
-    <td>124</td>
-                <td>Navy Pier</td>
-                <td>Every 10 minutes</td>
-  </tr>
+          <tr>
+                    <th>Line</th>
+                    <th>Destination</th>
+                    <th>Frequency</th>
+          </tr>
+<tr>
+                    <td>60</td>
+                    <td>Randolph/Harbor Dr</td>
+            <td>Every 20 minutes</td>
+</tr>
+
+<tr>
+            <td>124</td>
+                    <td>Navy Pier</td>
+                    <td>Every 10 minutes</td>
+</tr>
 </table>
 </section>
 
-<div class="direction-data">
+<div class="direction">
 Northbound
 </div>
 
 <section class="route data">
 <table style="width:100%">
-  <tr>
+<tr>
                 <th>Line</th>
                 <th>Destination</th>
-    <th>Frequency</th>
-  </tr>
-  <tr>
+        <th>Frequency</th>
+      </tr>
+
+<tr>
                 <td>151</td>
                 <td>Devon/Clark</td>
                 <td>Every 16 minutes</td>
-  </tr>
+</tr>
 
 </table>
 </section>
 
-<div class="direction-data">
+<div class="direction">
 Southbound
 </div>
-
 <section class="route data">
 <table style="width:100%">
               <tr>
@@ -114,11 +124,10 @@ Southbound
                 <td>Navy Pier</td>
                 <td>Every 10 minutes</td>
   </tr>
-
 </table>
 </section>
 
-<div class="direction-data">
+<div class="direction reroute">
 Reroute
 </div>
 
@@ -129,7 +138,7 @@ Reroute
                 <th>Destination</th>
                 <th>Frequency</th>
   </tr>
-  <tr>
+      <tr>
                 <td>6x</td>
                 <td>Jackson Park Express</td>
                 <td>N/A</td>
@@ -137,13 +146,13 @@ Reroute
 </table>
 </section>
 
-<div class="direction-data">
+<div class="direction out">
 Out of Service
 </div>
 
 <section class="route data">
 <table style="width:100%">
-  <tr>
+<tr>
                 <th>Line</th>
                 <th>Destination</th>
                 <th>Frequency</th>
@@ -155,31 +164,32 @@ Out of Service
 </tr>
 <tr>
                 <td>4</td>
-    <td>Cottage Grove</td>
+        <td>Cottage Grove</td>
                 <td>Resumes 12:10am</td>
 </tr>
  <tr>
-    <td>20</td>
+        <td>20</td>
                 <td>Madison</td>
                 <td>Resumes 12:10am</td>
 </tr>
 <tr>
-    <td>157</td>
+        <td>157</td>
                 <td>Streeterville/Taylor</td>
-    <td>Resumes 6:00am</td>
+        <td>Resumes 6:00am</td>
               </tr>
 </table>
 </section>
 
-
 <nav class = "toolbar">
-<img src="images/toolbar.png">    
+<div class= "stop icon"> 
+<img src="images/redsearch.png"> Stop Finder</div><!--
+--><div class = "history icon">
+<img src="images/history.png">History</div><!--
+--><div class = "compare icon">
+<img src="images/compare.png">Compare</div><!--
+--><div class = "settings icon">
+<img src="images/settings.png">Settings</div>    
 </nav>
 
-</section>
  </body>
 </html>
-
-
-
-

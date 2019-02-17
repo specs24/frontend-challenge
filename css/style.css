@@ -43,7 +43,7 @@ Border-radius: 8px;
 Background-color: #f2f2f2;
 Padding: 8px;
 Color: #afa5a5;
-font-family: ‘Roboto’,serif;
+font-family: 'Roboto',serif;
 Font-size: 18px;
 Border: 0px solid;
 Margin-left: 10px;
@@ -52,17 +52,13 @@ padding-left:30px;
 }
 
 input:focus {
-    outline:none;
+	outline:none;
 }
 
 .searchbar {
-    margin-top: 5px;
+	margin-top: 5px;
 margin-bottom: 5px;
 Border-color: white;
-}
-
-#search {
-    Background-image: url("images/seach");
 }
 
 .user {
@@ -134,7 +130,7 @@ Border-radius: 5px;
 
 
 .distanceLabel, .distance, .stopLabel, .stopLocation  {
-     Display: inline-block;
+ 	Display: inline-block;
 }
 
 .stopLocation, .distance {
@@ -181,12 +177,12 @@ Color: gray;
 }
 
 .toolbar Img {
-    Display: block;
+	Display: block;
 height: 15px;
 width: 15px;
 Margin-left: 20px;
 }
 
 .stopfinder h1 {
-Margin-left: 55px;    
+Margin-left: 55px;	
 }

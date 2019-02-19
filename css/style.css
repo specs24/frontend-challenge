@@ -83,6 +83,7 @@ Font-weight: normal;
 
 .direction {
 Font-weight: bold;
+Font-size: 14px;
 Color: white;
 Background-color: grey;
 Border-radius: 4px;
@@ -121,6 +122,7 @@ Font-weight: bold;
 
 .stopLabel, .distanceLabel {
 background-color: #BB6BD9;
+Font-size: 14px;
 Width: 40%;
 Margin: 1%;
 color: white;

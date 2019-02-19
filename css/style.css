@@ -3,9 +3,9 @@
   box-sizing: border-box;
 }
 body {
-line-height: 2px;
+line-height: 2.5;
 font-family: 'Roboto',serif;
-font-size: 13px;
+font-size: 12px;
 Background-color: #F2F2F2;
 }
 
@@ -84,6 +84,7 @@ Font-weight: normal;
 .direction {
 Font-weight: bold;
 Color: white;
+font -size: 14.5px;
 Background-color: grey;
 Border-radius: 4px;
 padding: 5px 0px 5px 15px;
@@ -92,6 +93,7 @@ padding: 5px 0px 5px 15px;
 .out {
 Font-weight: bold;
 Color: black;
+Font-size: 14.5px;
 Background-color: red;
 Border-radius: 4px;
 padding: 5px 0px 5px 15px;
@@ -99,6 +101,7 @@ padding: 5px 0px 5px 15px;
 
 .reroute {
 Font-weight: bold;
+Font: 14.5px;
 Color: black;
 Background-color: yellow;
 Border-radius: 4px;

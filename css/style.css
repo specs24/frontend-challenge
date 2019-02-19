@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 body {
-line-height: 4;
+line-height: 2.5px;
 font-family: 'Roboto',serif;
 font-size: 12px;
 Background-color: #F2F2F2;
@@ -184,7 +184,7 @@ Color: gray;
 	Display: block;
 height: 15px;
 width: 15px;
-Margin-left: 20px;
+Margin-left: auto;
 }
 
 .stopfinder h1 {

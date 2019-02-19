@@ -3,9 +3,9 @@
   box-sizing: border-box;
 }
 body {
-line-height: 1.5;
+line-height: 2.5;
 font-family: 'Roboto',serif;
-font-size: 14px;
+font-size: 12px;
 Background-color: #F2F2F2;
 }
 
@@ -52,11 +52,11 @@ padding-left:30px;
 }
 
 input:focus {
-	outline:none;
+    outline:none;
 }
 
 .searchbar {
-	margin-top: 5px;
+    margin-top: 5px;
 margin-bottom: 5px;
 Border-color: white;
 }
@@ -130,7 +130,7 @@ Border-radius: 5px;
 
 
 .distanceLabel, .distance, .stopLabel, .stopLocation  {
- 	Display: inline-block;
+     Display: inline-block;
 }
 
 .stopLocation, .distance {
@@ -177,12 +177,12 @@ Color: gray;
 }
 
 .toolbar Img {
-	Display: block;
+    Display: block;
 height: 15px;
 width: 15px;
 Margin-left: 20px;
 }
 
 .stopfinder h1 {
-Margin-left: 55px;	
+Margin-left: 55px;    
 }
